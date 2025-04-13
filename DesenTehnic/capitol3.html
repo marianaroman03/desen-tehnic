@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capitolul 3 - Cotarea Desenelor</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f7fa;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .nav-buttons a {
+      background-color: #4c51bf;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s ease;
+    }
+    .nav-buttons a:hover {
+      background-color: #434190;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #2d3748;
+      font-weight: 600;
+    }
+
+    p {
+      line-height: 1.8;
+      color: #4a5568;
+      font-size: 16px;
+    }
+
+    .image-box {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .quiz-link {
+      display: block;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .quiz-link a {
+      background-color: #38b2ac;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .quiz-link a:hover {
+      background-color: #319795;
+    }
+
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Butoane navigare -->
+  <div class="nav-buttons">
+    <a href="capitol2.html">&larr; Capitolul 2</a>
+    <a href="capitol4.html">Capitolul 4 &rarr;</a>
+  </div>
+
+  <div class="container fade-in">
+    <h1>Capitolul 3: Cotarea Desenelor</h1>
+
+    <h2>Ce este cotarea?</h2>
+    <p>Cotarea este procesul prin care se adaugă dimensiuni precise într-un desen tehnic. Aceste informații permit fabricarea corectă a pieselor, respectând toleranțele impuse de proiectare. Prin cotare se indică lungimile, lățimile, înălțimile, unghiurile sau diametrele necesare, precum și poziționările exacte.</p>
+
+    <h2>Tipuri de cotare</h2>
+    <ul>
+      <li><strong>Cotare liniară:</strong> Măsoară lungimi și distanțe între puncte.</li>
+      <li><strong>Cotare unghiulară:</strong> Indică măsura unghiurilor între elementele geometrice.</li>
+      <li><strong>Cotare de diametru:</strong> Se aplică pentru obiecte circulare sau cilindrice.</li>
+      <li><strong>Cotare radială:</strong> Indică distanța de la centru spre periferie pentru arce de cerc sau raze.</li>
+    </ul>
+
+    <div class="image-box">
+      <img src="cap3poz.jpeg" alt="Exemplu cotare desen">
+      <p style="font-size: 14px; color: #6b7280;">Exemplu de cotare aplicată pe un desen tehnic</p>
+    </div>
+
+    <h2>Exemplu video</h2>
+    <div class="image-box">
+      <iframe src="https://www.youtube.com/embed/qtWhbEuZp-g" allowfullscreen></iframe>
+    </div>
+
+    <h2>Materiale suplimentare</h2>
+    <p>Pentru aprofundarea noțiunilor de cotare, poți consulta și ghiduri care descriu normele oficiale de cotare:</p>
+    <ul>
+      <li><a href="https://www.alegetidrumul.ro/uploads/calificari/6/Materiale%20didactice/IX_Reprezentarea%20pieselor%20mecanice_profJalbaE8.pdf" target="_blank">Norme de cotare - Ghid PDF</a></li>
+    </ul>
+
+    <div class="quiz-link">
+      <a href="quiz_capitol3.html">Testează-ți cunoștințele &rarr;</a>
+    </div>
+  </div>
+
+</body>
+</html>

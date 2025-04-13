@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capitolul 1 - Reprezentarea Secțiunilor</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f7fa;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      text-align: center;
+      color: #2d3748;
+      font-weight: 600;
+    }
+    p {
+      line-height: 1.8;
+      color: #4a5568;
+      font-size: 16px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .image-box {
+      text-align: center;
+      margin: 20px 0;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+    }
+    .quiz-link {
+      display: block;
+      margin-top: 40px;
+      text-align: center;
+    }
+    .quiz-link a {
+      background-color: #38b2ac;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .quiz-link a:hover {
+      background-color: #319795;
+    }
+    .button-hover:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+    /* Animatie pentru sectiuni */
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+    <div style="text-align: right; margin-bottom: 20px;">
+    <a href="capitol2.html" style="
+      background-color: #4c51bf;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s ease;
+    ">Capitolul 2 &rarr;</a>
+  </div>
+
+  <div class="container fade-in">
+    <h1>Capitolul 1: Reprezentarea Secțiunilor</h1>
+
+    <h2>Ce este o secțiune?</h2>
+    <p>În desenul tehnic, o secțiune reprezintă imaginea unui obiect care a fost tăiat imaginar de un plan de secțiune. Această reprezentare este folosită pentru a evidenția detalii interne care nu pot fi văzute din exterior.</p>
+
+    <h2>Tipuri de secțiuni</h2>
+    <p>Există mai multe tipuri de secțiuni:
+      <ul>
+        <li><strong>Secțiunea completă:</strong> planul de tăiere traversează întregul obiect.</li>
+        <li><strong>Secțiunea jumătate:</strong> folosită la obiecte simetrice, se arată o jumătate în vedere și cealaltă în secțiune.</li>
+        <li><strong>Secțiunea parțială:</strong> doar o porțiune este secționată pentru a evidenția un detaliu.</li>
+        <li><strong>Secțiunea ruptă:</strong> planul de tăiere are o traiectorie neregulată.</li>
+      </ul>
+    </p>
+
+    <h2>Reguli de reprezentare</h2>
+    <p>Zonele tăiate se hașurează cu linii subțiri, paralele și echidistante. Părțile nevizibile din secțiune nu se reprezintă cu linii întrerupte. Simbolul planului de tăiere se notează cu litere mari și săgeți.</p>
+
+    <div class="image-box">
+      <img class="button-hover" src="cap1poz.jpeg" alt="Exemplu de secțiune" style="max-width: 100%; height: auto; border-radius: 8px;">
+      <p style="font-size: 14px; color: #6b7280;">Exemplu de vedere și secțiune transversală</p>
+    </div>
+
+
+    <h2>Exemplu animat</h2>
+    <div class="image-box">
+      <iframe src="https://www.youtube.com/embed/uU_j-Urn9HA" allowfullscreen></iframe>
+    </div>
+
+    <div class="quiz-link">
+      <a href="quiz_capitol1.html">Testează-ți cunoștințele &rarr;</a>
+    </div>
+  </div>
+</body>
+</html>

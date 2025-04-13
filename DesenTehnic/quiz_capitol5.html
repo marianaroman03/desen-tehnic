@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capitolul 5 - Elemente Standardizate</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef1f4;
+      padding: 30px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .quiz {
+      background-color: #f7f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .question input {
+      margin-right: 10px;
+    }
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background-color: #45a049;
+    }
+    .feedback {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    .navigation-btns {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Capitolul 5: Elemente Standardizate</h1>
+    <p>În acest capitol învățăm despre elementele standardizate utilizate în desenul tehnic, inclusiv simbolurile și normele internaționale.</p>
+    
+    <!-- Quiz -->
+    <div class="quiz">
+      <h2>Quiz - Elemente Standardizate</h2>
+      <form id="quizForm">
+        <div class="question">
+          <label>1. Ce simbol este utilizat pentru a reprezenta un filet într-un desen tehnic?</label><br>
+          <input type="radio" name="q1" value="a"> Triunghi cu o linie verticală<br>
+          <input type="radio" name="q1" value="b"> Cerc cu o linie orizontală<br>
+          <input type="radio" name="q1" value="c"> Linie întreruptă<br>
+        </div>
+
+        <div class="question">
+          <label>2. Care este scopul standardelor internaționale în desenul tehnic?</label><br>
+          <input type="radio" name="q2" value="a"> Asigurarea unei comunicări clare între ingineri și designeri<br>
+          <input type="radio" name="q2" value="b"> Reducerea costurilor de producție<br>
+          <input type="radio" name="q2" value="c"> Crearea unui design estetic<br>
+        </div>
+
+        <div class="question">
+          <label>3. Ce simbol se folosește pentru a reprezenta o rugozitate a suprafeței?</label><br>
+          <input type="radio" name="q3" value="a"> Linie continuă<br>
+          <input type="radio" name="q3" value="b"> Linie punctată<br>
+          <input type="radio" name="q3" value="c"> Linie cu săgeată<br>
+        </div>
+
+        <div class="question">
+          <label>4. Ce reprezintă simbolul unei săgeți pe un desen tehnic?</label><br>
+          <input type="radio" name="q4" value="a"> Direcția de mișcare a unui element<br>
+          <input type="radio" name="q4" value="b"> Secțiune transversală<br>
+          <input type="radio" name="q4" value="c"> Suprafața de montaj<br>
+        </div>
+
+        <div class="question">
+          <label>5. Ce semnificație are simbolul unui cerc cu două linii în el?</label><br>
+          <input type="radio" name="q5" value="a"> Găuri filetate<br>
+          <input type="radio" name="q5" value="b"> Găuri de ventilație<br>
+          <input type="radio" name="q5" value="c"> Găuri de asamblare<br>
+        </div>
+
+        <div class="question">
+          <label>6. Cum se reprezintă o linie de simetrie pe un desen tehnic?</label><br>
+          <input type="radio" name="q6" value="a"> Linie punctată groasă<br>
+          <input type="radio" name="q6" value="b"> Linie continuă subțire<br>
+          <input type="radio" name="q6" value="c"> Linie punctată subțire<br>
+        </div>
+
+        <div class="question">
+          <label>7. Care este rolul unui plan de secțiune în desenul tehnic?</label><br>
+          <input type="radio" name="q7" value="a"> Reprezentarea unei secțiuni transversale a obiectului<br>
+          <input type="radio" name="q7" value="b"> Reprezentarea dimensiunilor exacte ale piesei<br>
+          <input type="radio" name="q7" value="c"> Reprezentarea unei linii de simetrie<br>
+        </div>
+
+        <div class="question">
+          <label>8. Ce semnifică simbolul unei linii ondulate pe un desen tehnic?</label><br>
+          <input type="radio" name="q8" value="a"> Raza de colț<br>
+          <input type="radio" name="q8" value="b"> Linie de sudură<br>
+          <input type="radio" name="q8" value="c"> Linie de control<br>
+        </div>
+
+        <div class="question">
+          <label>9. Care este scopul unei scale grafice într-un desen tehnic?</label><br>
+          <input type="radio" name="q9" value="a"> Reducerea dimensiunii reale a obiectului<br>
+          <input type="radio" name="q9" value="b"> Creșterea detaliilor obiectului<br>
+          <input type="radio" name="q9" value="c"> Reprezentarea unui obiect în format 3D<br>
+        </div>
+
+        <div class="question">
+          <label>10. Ce simbol reprezintă un unghi de 90° pe un desen tehnic?</label><br>
+          <input type="radio" name="q10" value="a"> Linie dreaptă<br>
+          <input type="radio" name="q10" value="b"> Unghi de 90° cu un semn "+"<br>
+          <input type="radio" name="q10" value="c"> Unghi drept cu un semn "L"<br>
+        </div>
+
+        <button type="button" class="btn" onclick="checkAnswers()">Verifică răspunsurile</button>
+      </form>
+
+      <div class="feedback" id="feedback"></div>
+
+      <div class="navigation-btns">
+        <a href="capitol5.html"><button class="btn">Mergi la lecție</button></a>
+        <button class="btn" onclick="resetQuiz()">Refă quizul</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function checkAnswers() {
+      var score = 0;
+      var totalQuestions = 10;
+      var feedback = "";
+
+      // Verifică răspunsurile corecte
+      if (document.querySelector('input[name="q1"]:checked') && document.querySelector('input[name="q1"]:checked').value == "a") {
+        score++;
+      }
+      if (document.querySelector('input[name="q2"]:checked') && document.querySelector('input[name="q2"]:checked').value == "a") {
+        score++;
+      }
+      if (document.querySelector('input[name="q3"]:checked') && document.querySelector('input[name="q3"]:checked').value == "b") {
+        score++;
+      }
+      if (document.querySelector('input[name="q4"]:checked') && document.querySelector('input[name="q4"]:checked').value == "a") {
+        score++;
+      }
+      if (document.querySelector('input[name="q5"]:checked') && document.querySelector('input[name="q5"]:checked').value == "a") {
+        score++;
+      }
+      if (document.querySelector('input[name="q6"]:checked') && document.querySelector('input[name="q6"]:checked').value == "c") {
+        score++;
+      }
+      if (document.querySelector('input[name="q7"]:checked') && document.querySelector('input[name="q7"]:checked').value == "a") {
+        score++;
+      }
+      if (document.querySelector('input[name="q8"]:checked') && document.querySelector('input[name="q8"]:checked').value == "b") {
+        score++;
+      }
+      if (document.querySelector('input[name="q9"]:checked') && document.querySelector('input[name="q9"]:checked').value == "a") {
+        score++;
+      }
+      if (document.querySelector('input[name="q10"]:checked') && document.querySelector('input[name="q10"]:checked').value == "c") {
+        score++;
+      }
+
+      feedback = "Ai răspuns corect la " + score + " din " + totalQuestions + " întrebări.";
+      document.getElementById("feedback").innerText = feedback;
+    }
+
+    function resetQuiz() {
+      document.getElementById("quizForm").reset();
+      document.getElementById("feedback").innerText = "";
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Capitolul 4 - Toleranțe și Ajustaje</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f7fa;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .nav-buttons a {
+      background-color: #4c51bf;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s ease;
+    }
+    .nav-buttons a:hover {
+      background-color: #434190;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2, h3 {
+      text-align: center;
+      color: #2d3748;
+      font-weight: 600;
+    }
+
+    p {
+      line-height: 1.8;
+      color: #4a5568;
+      font-size: 16px;
+    }
+
+    ul {
+      color: #4a5568;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .image-box {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .quiz-link {
+      display: block;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .quiz-link a {
+      background-color: #38b2ac;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .quiz-link a:hover {
+      background-color: #319795;
+    }
+
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Butoane navigare -->
+  <div class="nav-buttons">
+    <a href="capitol3.html">&larr; Capitolul 3</a>
+    <a href="capitol5.html">Capitolul 5 &rarr;</a>
+  </div>
+
+  <div class="container fade-in">
+    <h1>Capitolul 4: Toleranțe și Ajustaje</h1>
+
+    <h2>Ce sunt toleranțele și ajustajele?</h2>
+    <p>Toleranțele sunt limitele acceptabile pentru variațiile dimensiunilor pieselor. Ajustajele sunt modificările necesare pentru a obține o potrivire precisă între piesele unui ansamblu, ținând cont de aceste toleranțe.</p>
+
+    <h3>Tipuri de toleranțe:</h3>
+    <ul>
+      <li><strong>Toleranțe de dimensiune:</strong> Variabilitatea acceptată în dimensiunile piesei, cum ar fi lungimea sau lățimea.</li>
+      <li><strong>Toleranțe de formă:</strong> Permit erori minore în formă, dar nu afectează funcționarea piesei.</li>
+      <li><strong>Toleranțe de poziție:</strong> Se referă la poziția unei piese față de alte componente într-un ansamblu.</li>
+    </ul>
+
+    <h3>Exemplu de ajustaj</h3>
+    <p>Imaginează-ți că un butuc trebuie să fie montat pe un ax. Dacă toleranțele sunt prea mari, butucul va avea joc. Dacă sunt prea mici, butucul nu se va potrivi deloc. Ajustajele sunt folosite pentru a asigura o potrivire corectă.</p>
+
+    <div class="image-box">
+      <img src="cap4poz.png" alt="Exemplu ajustaj" />
+      <img src="cap4poz2.jpeg" alt="Diagramă toleranțe și ajustaje" />
+    </div>
+
+    <h2>Resurse suplimentare</h2>
+    <p>Pentru o aprofundare teoretică, consultă acest material universitar:</p>
+    <ul>
+      <li><a href="https://www.cmmi.tuiasi.ro/docs/cursuri/TCD-Curs.pdf" target="_blank">Curs universitar despre toleranțe și ajustaje</a></li>
+    </ul>
+
+    <div class="quiz-link">
+      <a href="quiz_capitol4.html">Testează-ți cunoștințele &rarr;</a>
+    </div>
+  </div>
+
+</body>
+</html>
